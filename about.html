@@ -36,10 +36,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
               </li>
             </ul>
           </div>
@@ -48,19 +50,28 @@
     </header>
 
     <main>
-      <canvas
-        id="myCanvas"
-        width="320"
-        height="320"
-        style="background-color: black"
-      ></canvas>
-
-      <p id="myScore"></p>
-      <p id="myScore2"></p>
-      <button type="button" id="Start" onclick="location.reload()">
-        開始新遊戲
-      </button>
+      <div class="ps-3 pt-2 rounded-3 text-light">
+        <div class="container-fluid py-3">
+          <h1 class="display-5 fw-bold fs-2">Project 5 - 貪食蛇遊戲</h1>
+          <p class="col-md-8 fs-4 mb-2">
+            Project5的練習包括使用css製作蛇與方塊、JavaScript實現操作蛇的邏輯以及使方塊隨機出現。
+          </p>
+          <a
+            href="https://github.com/james-chiou/snake-game"
+            target="_blank"
+            rel="noreferrer noopenner"
+            class="btn btn-primary btn-lg"
+            >Github</a
+          >
+        </div>
+      </div>
+      <div class="ps-3 pt-2 rounded-3 text-light">
+        <div class="container-fluid py-3">
+          <h1 class="display-5 fw-bold fs-2">聯絡方式</h1>
+          <p class="col-md-8 fs-4 mb-0">作者: 邱泓叡</p>
+          <p class="col-md-8 fs-4 mt-0">信箱: hongjuichiou.james@gmail.com</p>
+        </div>
+      </div>
     </main>
-    <script src="./app.js"></script>
   </body>
 </html>

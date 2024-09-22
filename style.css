@@ -6,46 +6,28 @@
 
 body {
   background-color: black;
+}
+
+body.main {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
-  /* justify-content: space-evenly; */
+  flex-direction: column;
+  justify-items: center;
 }
 
 #myCanvas {
   border: 5px solid lightgreen;
   position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translate(-40%, -30%);
-}
-div {
-  /* border: 5px solid white; */
-  position: absolute;
-  top: 55%;
-  left: 60%;
-  transform: translate(-55%, -60%);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: left;
-  justify-content: space-evenly;
-}
-#myScore {
-  /* border: 1px solid blue; */
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-}
-
-#myScore2 {
-  /* border: 1px solid red; */
-  margin-top: 0rem;
-  /* margin-bottom: 1rem; */
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -45%);
 }
 
 #myScore,
 #myScore2 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   color: white;
   font-size: 1.5rem;
   padding: 8px;
@@ -56,5 +38,25 @@ div {
   background-color: yellow;
   font-size: 1.5rem;
   /* display: block; */
-  margin-top: 8px;
+  margin-top: 5px;
+}
+
+#myScore {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+#myScore2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#Start {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
 }
